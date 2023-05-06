@@ -1,0 +1,307 @@
+{
+    "customers": [
+        {
+            "uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+            "name": "John",
+            "surname": "Doe"
+        },
+        {
+            "uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+            "name": "Jane",
+            "surname": "Doe"
+        }
+    ],
+    "bank_accounts": [
+        {
+            "uuid": "50d07bbd-b39e-4aab-b739-c9d85c24ee31",
+            "account_no": "8146674326716082",
+            "iban": "TR662819958146674326716082",
+            "customer_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+            "password": "123456789",
+            "balance": 349850,
+            "cards": [
+                {
+                    "uuid": "c3c4bd7b-6967-45b3-9a49-274b6a20b76a",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "number": "4850-8597-6177-5529",
+                    "brand": "VISA",
+                    "card_exp_month": "4",
+                    "card_exp_year": "2025",
+                    "cvv": "705",
+                    "pin": "1234",
+                    "holder_fullname": "John Doe"
+                }
+            ],
+            "transactions": [
+                {
+                    "uuid": "1c20e7c5-a63e-4935-a4ce-51735dbfa066",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 100.000,00 TL yat\u0131rd\u0131n\u0131z.",
+                    "time_stampt": "28/01/2023 14:48:29"
+                },
+                {
+                    "uuid": "0bcaf48a-b16c-42af-845f-a4d8ca76b96c",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8410176759278699 numaral\u0131 banka hesab\u0131ndan 15,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "04/05/2023 10:49:38"
+                },
+                {
+                    "uuid": "04bd2afe-7309-4c7b-8bbd-9a5292e23eab",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8410176759278699 numaral\u0131 banka hesab\u0131ndan 15,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "04/05/2023 10:54:27"
+                },
+                {
+                    "uuid": "303f72b5-05c5-426c-9519-6ae232b62c96",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 400.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 00:15:54"
+                },
+                {
+                    "uuid": "d2a777b1-52f4-4730-9f9e-5a44d66d9923",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 1,380.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 00:25:51"
+                },
+                {
+                    "uuid": "b8ba0f4d-d5bc-4a84-918e-3cccde1b449b",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 1,500.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 01:32:01"
+                },
+                {
+                    "uuid": "3757c7de-7de1-4cba-8291-1cc712fa5138",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 1,500.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 01:33:02"
+                },
+                {
+                    "uuid": "4fa4ff19-720e-4908-8c53-8ec77a64ffd7",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 3,000.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 01:33:11"
+                },
+                {
+                    "uuid": "425db89d-d0ac-40fc-b4a1-aa2df1831f3a",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 10,000.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 01:33:22"
+                },
+                {
+                    "uuid": "a360ecbe-3800-4699-ac7b-726b403cbf5f",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 49,000.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 12:43:23"
+                },
+                {
+                    "uuid": "a106a96b-c5e5-44c5-998d-7eb3738d75f5",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 450.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 13:52:02"
+                },
+                {
+                    "uuid": "9492be27-780d-4ba5-a783-a837b6e13da1",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 150.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 13:52:18"
+                },
+                {
+                    "uuid": "4d0e77dc-b6ab-4609-9622-6bd231458e59",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 3,080.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 14:05:50"
+                },
+                {
+                    "uuid": "92c1d42a-55ea-4174-9db6-8a8f7667d109",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 6,160.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 14:06:09"
+                },
+                {
+                    "uuid": "7876ddef-710a-4489-bc79-3a841d002c68",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 2,320.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 14:06:26"
+                },
+                {
+                    "uuid": "054c9d3c-8099-4ff3-906c-4e1d790ce4b2",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8410176759278699 numaral\u0131 banka hesab\u0131na 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:28:00"
+                },
+                {
+                    "uuid": "d07ab3c9-66df-46b7-9da6-135b98c8198b",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8410176759278699 numaral\u0131 banka hesab\u0131ndan 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:31:56"
+                },
+                {
+                    "uuid": "47d57a85-b7a0-4196-ae8a-9f7fee10a183",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8410176759278699 numaral\u0131 banka hesab\u0131na 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:33:27"
+                },
+                {
+                    "uuid": "a9c51d36-1ef6-4b48-9341-d7a08c10c64a",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8410176759278699 numaral\u0131 banka hesab\u0131ndan 300,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:37:45"
+                },
+                {
+                    "uuid": "0cbb2f78-c23f-4421-8997-cc75140f06ea",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 5,000.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 17:55:04"
+                },
+                {
+                    "uuid": "2f4a38df-8c16-4e70-8048-1f5d5cfd3680",
+                    "owner_uuid": "161bdb8f-f8ba-44e3-91d0-b3d00ff2a8bb",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 150.00 TL \u00e7ektiniz.",
+                    "time_stampt": "06/05/2023 11:39:00"
+                }
+            ]
+        },
+        {
+            "uuid": "c06a15c9-79a1-4e74-b661-78f6ffb7ab66",
+            "account_no": "8410176759278699",
+            "iban": "TR705725238410176759278699",
+            "customer_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+            "password": "987654321",
+            "balance": 571551,
+            "cards": [
+                {
+                    "uuid": "e2ea7485-fb77-4d0e-9ebc-2b1e03c12f9e",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "number": "4959-5915-5986-1530",
+                    "brand": "VISA",
+                    "card_exp_month": "4",
+                    "card_exp_year": "2025",
+                    "cvv": "275",
+                    "pin": "4321",
+                    "holder_fullname": "Jane Doe"
+                }
+            ],
+            "transactions": [
+                {
+                    "uuid": "c82d429e-1922-4450-b81c-11d238eaace7",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 1.000.000,00 TL yat\u0131rd\u0131n\u0131z.",
+                    "time_stampt": "18/02/2023 20:00:00"
+                },
+                {
+                    "uuid": "a49753f6-afcd-40dd-aa72-70bd73ed0877",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 200.000,00 TL \u00e7ektiniz.",
+                    "time_stampt": "10/03/2023 12:45:29"
+                },
+                {
+                    "uuid": "997884da-e88c-41ba-aa54-47480f4f5c77",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8146674326716082 numaral\u0131 banka hesab\u0131na 15,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "04/05/2023 10:49:38"
+                },
+                {
+                    "uuid": "a2e9f32c-af28-47f8-8bfc-eda871a50d36",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8146674326716082 numaral\u0131 banka hesab\u0131na 15,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "04/05/2023 10:54:27"
+                },
+                {
+                    "uuid": "7b3b94f8-adf4-42d7-8773-c8dc73213172",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 30,000.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 00:35:19"
+                },
+                {
+                    "uuid": "e5dc58d2-f48a-4e7e-a762-05c11e3d6ad2",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 123,874.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 12:51:13"
+                },
+                {
+                    "uuid": "6bab400a-d7dc-4a5a-8b7e-33db65071619",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 97,823.00 TL \u00e7ektiniz.",
+                    "time_stampt": "05/05/2023 12:51:33"
+                },
+                {
+                    "uuid": "7750c996-93eb-4598-8614-359f8af0f7c5",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 500.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "05/05/2023 14:10:20"
+                },
+                {
+                    "uuid": "5126a2c8-330d-44a8-9c6b-2f0a67b74f88",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8146674326716082 numaral\u0131 banka hesab\u0131ndan 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:28:00"
+                },
+                {
+                    "uuid": "07208635-0db5-4bde-90f2-2dea38f105bf",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8146674326716082 numaral\u0131 banka hesab\u0131na 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:31:56"
+                },
+                {
+                    "uuid": "f20f2d1e-29bc-42c1-afde-1220a65d6799",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131za 8146674326716082 numaral\u0131 banka hesab\u0131ndan 45,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:33:27"
+                },
+                {
+                    "uuid": "be75bec5-99b1-4207-a0b3-31096b28fb4d",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Transfer",
+                    "description": "Hesab\u0131n\u0131zdan 8146674326716082 numaral\u0131 banka hesab\u0131na 300,000.00 TL para transfer edilmi\u015ftir.",
+                    "time_stampt": "05/05/2023 17:37:45"
+                },
+                {
+                    "uuid": "231a31c2-fb28-4dcb-8f78-abeafc632863",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Deposit",
+                    "description": "Hesab\u0131n\u0131za 123.00 TL para yat\u0131rd\u0131n\u0131z",
+                    "time_stampt": "06/05/2023 11:40:43"
+                },
+                {
+                    "uuid": "7fd0f40b-daed-4837-9993-a3928eb5324b",
+                    "owner_uuid": "1f78148f-16f9-4c86-bfae-66fb4d36e73e",
+                    "event_type": "Withdraw",
+                    "description": "Hesab\u0131n\u0131zdan 123.00 TL \u00e7ektiniz.",
+                    "time_stampt": "06/05/2023 11:40:47"
+                }
+            ]
+        }
+    ]
+}
